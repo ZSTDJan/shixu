@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>事序 SHIXU · Windows 桌面软件</title>
+  <style>
+:root {
+  color-scheme: light;
+  --text: #1f2328;
+  --muted: #56645f;
+  --border: #d5dfda;
+  --green: #11634f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei",
+    "PingFang SC", sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 24px; }
+body { margin: 0; color: var(--text); background: #f6f8fa; }
+.preview-bar { border-bottom: 1px solid #d8dee4; background: #f6f8fa; }
+.preview-inner, main { max-width: 1030px; margin: 0 auto; }
+.preview-inner {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; min-height: 50px; padding: 10px 20px;
+  color: var(--muted); font-size: 13px;
+}
+main {
+  margin: 22px auto 40px; padding: 36px 44px 48px;
+  background: white; border: 1px solid var(--border); border-radius: 8px;
+  font-size: 16px; line-height: 1.65; overflow-wrap: anywhere;
+}
+h1, h2, h3 { line-height: 1.35; font-weight: 650; }
+h1 { margin: 0 0 18px; font-size: 34px; }
+h2 {
+  margin: 30px 0 14px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border); font-size: 24px;
+}
+h3 { margin: 21px 0 9px; font-size: 18px; }
+p { margin: 0 0 12px; }
+ol, ul { margin: 0 0 14px; padding-left: 1.55em; }
+li + li { margin-top: 4px; }
+a { color: var(--green); text-underline-offset: 3px; }
+a:hover { color: #084334; }
+a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+img { max-width: 100%; height: auto; vertical-align: middle; }
+main > p > a > img { display: block; border: 1px solid var(--border); border-radius: 5px; }
+table { border-collapse: collapse; margin: 0 0 16px; }
+th, td { border: 1px solid var(--border); padding: 7px 12px; vertical-align: top; }
+.gallery {
+  width: calc(100% + 16px); margin: 0 -8px 12px;
+  border-collapse: separate; border-spacing: 8px 12px; table-layout: fixed;
+}
+.gallery td {
+  border-radius: 5px; overflow: hidden; padding: 0 0 8px;
+  background: #f8fbf9; text-align: center; font-size: 14px;
+}
+.gallery img { display: block; width: 100%; margin-bottom: 7px; }
+.gallery br { display: none; }
+.qr { padding: 4px; border: 1px solid var(--border); background: white; }
+.support-codes { border-collapse: separate; border-spacing: 8px 0; margin-left: -8px; }
+.support-codes td { border: 0; padding: 0; text-align: center; }
+.support-codes img { margin-bottom: 5px; }
+blockquote { margin: 0 0 16px; padding-left: 16px; border-left: 4px solid var(--border); }
+pre { overflow: auto; padding: 16px; background: #f6f8fa; border-radius: 6px; }
+code { font-family: Consolas, monospace; font-size: .9em; }
+@media (max-width: 1070px) { main { margin-right: 16px; margin-left: 16px; } }
+@media (max-width: 620px) {
+  main { margin: 10px 8px 24px; padding: 22px 17px 30px; }
+  h1 { font-size: 29px; }
+  .gallery, .gallery tbody, .gallery tr, .gallery td { display: block; width: 100%; }
+  .gallery { margin: 0 0 14px; }
+  .gallery td { margin-bottom: 12px; }
+  .support-codes img { width: min(160px, 36vw); }
+}
+</style>
+</head>
+<body>
+  <div class="preview-bar">
+    <div class="preview-inner"><span>事序 SHIXU</span><a href="https://github.com/ZSTDJan/shixu">GitHub 仓库</a></div>
+  </div>
+  <main>
+<h1 id="事序-shixu">事序 SHIXU</h1>
+<p>事序是一款 Windows 桌面软件，用于收集信息、记录日志、安排待办和跟进事项。汇报或交接时，可以导出 PDF、Word 或带原始附件的资料包。</p>
+<p>记录和材料保存在电脑上的事项库中，可以整库备份和迁移。</p>
+<p><a href="#%E4%B8%8B%E8%BD%BD%E4%B8%8E%E7%8E%AF%E5%A2%83">下载与环境</a> · <a href="#%E5%8A%9F%E8%83%BD">功能</a> · <a href="#%E5%8A%9F%E8%83%BD%E9%85%8D%E5%9B%BE">功能配图</a> · <a href="#%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8">首次使用</a> · <a href="#%E5%8F%8D%E9%A6%88%E4%B8%8E%E6%94%AF%E6%8C%81">反馈与支持</a></p>
+<h2 id="下载与环境">下载与环境</h2>
+<p>个人开发，免费使用。已验证环境为 <strong>Windows 11 x64</strong>。</p>
+<p>公开下载暂未开放。</p>
+<h2 id="功能">功能</h2>
+<ul>
+<li><strong>总览工作台</strong> — 把日历、待办、关注事项和常用工具放在一起，按需调整组件。</li>
+<li><strong>待办与四象限</strong> — 用列表查看详情，用四象限安排优先级。两个视图共用同一份待办。</li>
+<li><strong>日历</strong> — 按年、月、周查看排期，设置重复待办和提醒。</li>
+<li><strong>快速收集</strong> — 用快捷键把其他软件里的文字、图片和文件存成收集卡。</li>
+<li><strong>收集板</strong> — 分区整理卡片，从卡片内容创建待办或事项。</li>
+<li><strong>随记</strong> — 按日期写图文记录，可以回看、导出和打印。</li>
+<li><strong>事项与过程</strong> — 在同一个事项里记录进展、经过、待办和相关材料。</li>
+<li><strong>资料包交接</strong> — 把所选事项、过程记录和原始附件打包交接。</li>
+<li><strong>导出模板</strong> — 保存常用版式和字段，换一组内容继续生成 PDF 或 Word。</li>
+<li><strong>主题与配色</strong> — 自选主色、背景和明暗模式。</li>
+<li><strong>独立事项库</strong> — 备份或换机时，可以把记录、材料和库内布局一起带走。</li>
+<li><strong>AI 连接</strong> — 通过 MCP 连接兼容的 AI 客户端读取当前事项库。授权写入后，可创建或修改记录。</li>
+</ul>
+<h2 id="功能配图">功能配图</h2>
+<p>点击图片查看原图。</p>
+<p><a href="assets/00-cover.png"><img src="assets/00-cover.png" alt="事序功能总览" /></a></p>
+<table class="gallery">
+<tr>
+<td width="50%"><a href="assets/01-workbench.png"><img src="assets/01-workbench.png" alt="总览工作台" width="480" loading="lazy"></a><br>总览工作台</td>
+<td width="50%"><a href="assets/02-tasks.png"><img src="assets/02-tasks.png" alt="待办列表与四象限" width="480" loading="lazy"></a><br>待办列表与四象限</td>
+</tr>
+<tr>
+<td width="50%"><a href="assets/03-calendar.png"><img src="assets/03-calendar.png" alt="年、月、周日历" width="480" loading="lazy"></a><br>年、月、周日历</td>
+<td width="50%"><a href="assets/04-quick-capture.png"><img src="assets/04-quick-capture.png" alt="快速收集" width="480" loading="lazy"></a><br>快速收集</td>
+</tr>
+<tr>
+<td width="50%"><a href="assets/05-collection-board.png"><img src="assets/05-collection-board.png" alt="收集板" width="480" loading="lazy"></a><br>收集板</td>
+<td width="50%"><a href="assets/06-journal.png"><img src="assets/06-journal.png" alt="图文随记" width="480" loading="lazy"></a><br>图文随记</td>
+</tr>
+<tr>
+<td width="50%"><a href="assets/07-issues.png"><img src="assets/07-issues.png" alt="事项与过程" width="480" loading="lazy"></a><br>事项与过程</td>
+<td width="50%"><a href="assets/08-handover.png"><img src="assets/08-handover.png" alt="资料包交接" width="480" loading="lazy"></a><br>资料包交接</td>
+</tr>
+<tr>
+<td width="50%"><a href="assets/09-export-template.png"><img src="assets/09-export-template.png" alt="导出模板" width="480" loading="lazy"></a><br>导出模板</td>
+<td width="50%"><a href="assets/10-themes.png"><img src="assets/10-themes.png" alt="主题与配色" width="480" loading="lazy"></a><br>主题与配色</td>
+</tr>
+<tr>
+<td width="50%"><a href="assets/11-library.png"><img src="assets/11-library.png" alt="独立事项库" width="480" loading="lazy"></a><br>独立事项库</td>
+<td width="50%"><a href="assets/12-mcp.png"><img src="assets/12-mcp.png" alt="通过 MCP 连接 AI" width="480" loading="lazy"></a><br>通过 MCP 连接 AI</td>
+</tr>
+</table>
+<h2 id="首次使用">首次使用</h2>
+<ol>
+<li>第一次打开时，新建事项库。如果已有资料，选择「打开已有事项资料库」，选中整个库文件夹。</li>
+<li>新建后进入总览，点击「快速上手」，打开第一张示例卡。</li>
+<li>跟着卡片做一次操作，例如把一段文字收成卡片，或安排一条待办。</li>
+</ol>
+<p><a href="manual.html#%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8">查看使用手册</a></p>
+<h2 id="反馈与支持">反馈与支持</h2>
+<h3 id="交流与反馈">交流与反馈</h3>
+<ul>
+<li>QQ 群「事序-交流」 · <strong>89641678</strong></li>
+<li>反馈邮箱 · <a href="mailto:w.jan@FOXmail.com">w.jan@FOXmail.com</a></li>
+</ul>
+<p>反馈问题时，可以附上事序版本和复现步骤。</p>
+<img class="qr" src="assets/feedback-qq.png" alt="事序交流 QQ 群二维码" width="160" height="160" loading="lazy">
+<h3 id="支持事序">支持事序</h3>
+<p>如果事序对你有帮助，欢迎在 <a href="https://github.com/ZSTDJan/shixu">GitHub 仓库</a>点亮 Star，也可以扫码赞助。</p>
+<table class="support-codes">
+<tr>
+<td align="center"><img class="qr" src="assets/sponsor-wechat.png" alt="微信赞助二维码" width="160" height="160" loading="lazy"><br>微信</td>
+<td align="center"><img class="qr" src="assets/sponsor-alipay.png" alt="支付宝赞助二维码" width="160" height="160" loading="lazy"><br>支付宝</td>
+</tr>
+</table>
+  </main>
+</body>
+</html>
