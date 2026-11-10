@@ -20,7 +20,7 @@
 
 个人开发，免费使用。已验证环境为 **Windows 11 x64**。
 
-[下载事序 0.3.5 测试版](https://github.com/ZSTDJan/shixu/releases/tag/v0.3.5)（Windows 11 x64）。
+[下载事序 0.3.6 测试版](https://github.com/ZSTDJan/shixu/releases/tag/v0.3.6)（Windows 11 x64）。
 
 ## 功能
 
