@@ -22,7 +22,7 @@
 
 **Win10 支持范围：** Windows 10 专业版 22H2 x64（19045.6456）已完成本地安装、升级和运行验证，本版已包含兼容修复。其它 Win10 版本、LTSC、ARM 和跨屏尚未验证。
 
-[下载事序 0.3.7 测试版](https://github.com/ZSTDJan/shixu/releases/tag/v0.3.7)（Windows 11 x64 / Win10 22H2 x64）。
+[下载事序 0.3.8 测试版](https://github.com/ZSTDJan/shixu/releases/tag/v0.3.8)（Windows 11 x64 / Win10 22H2 x64）。
 
 ## 功能
 
