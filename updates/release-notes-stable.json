@@ -1,0 +1,11 @@
+{
+  "protocol": 1,
+  "releases": [
+    {
+      "version": "0.3.9",
+      "notes": "修复天气位置获取、安装路径选择、悬浮页面保存等问题。",
+      "publishedAt": null,
+      "channel": "stable"
+    }
+  ]
+}
