@@ -1,11 +1,17 @@
 {
-  "protocol": 1,
   "releases": [
+    {
+      "version": "0.3.10",
+      "notes": "AI 连接\n\n修复开启 AI 连接时报错、客户端无法连接的问题，并完善启动失败后的提示和重试。",
+      "publishedAt": null,
+      "channel": "stable"
+    },
     {
       "version": "0.3.9",
       "notes": "修复天气位置获取、安装路径选择、悬浮页面保存等问题。",
-      "publishedAt": null,
+      "publishedAt": "2026-11-14T18:20:55Z",
       "channel": "stable"
     }
-  ]
+  ],
+  "protocol": 1
 }
