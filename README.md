@@ -23,7 +23,7 @@
 **Win10 支持范围：** Windows 10 专业版 22H2 x64（19045.6456）。其它 Win10 版本、LTSC、ARM 和跨屏尚未验证。
 
 <!-- SHIXU_DOWNLOADS_START -->
-- [下载稳定版（推荐）](https://github.com/ZSTDJan/shixu/releases/download/v0.3.12/SHIXU-0.3.12-win-x64-setup.exe) · 0.3.12 · [更新说明](https://github.com/ZSTDJan/shixu/releases/tag/v0.3.12) — 适合日常持续使用。
+- [下载稳定版（推荐）](https://github.com/ZSTDJan/shixu/releases/download/v0.3.13/SHIXU-0.3.13-win-x64-setup.exe) · 0.3.13 · [更新说明](https://github.com/ZSTDJan/shixu/releases/tag/v0.3.13) — 适合日常持续使用。
 - **下载尝鲜版**：暂未发布。
 <!-- SHIXU_DOWNLOADS_END -->
 
